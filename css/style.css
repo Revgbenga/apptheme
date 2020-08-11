@@ -1,0 +1,226 @@
+body{
+	font-family: 'open-sans',sans-serif;
+	font-size: 18px;
+	line-height: i.5em;
+	margin: 0;
+	padding: 0;
+}
+/*img{
+	width: 100%;*/
+}
+.container{
+	margin: auto;
+}
+
+/*common classes*/
+
+.primary-text{
+	color: #56a79a;
+}
+
+.primary-background{
+	background: : #56a79a;
+}
+
+/*the header*/
+
+#main-header{
+	border-bottom: 1px solid #56a79a;
+}
+
+/*navbar */
+
+#navbar{
+	text-transform: uppercase;
+}
+
+#navbar li{
+	display: inline;
+	padding-right: 20px;
+	list-style: none;
+}
+
+#navbar a{
+	text-decoration: none;
+	color: #888;
+}
+
+#navbar li.current a, #navbar a:hover{
+	color: #56a79a;
+	border-bottom: 3px solid  #56a79a;
+	padding: 3px; 
+}
+
+/*showcase*/
+
+#showcase{
+	background-image :url('images/new.jpg') no-repeat center center;
+	border-bottom: 1px solid #56a79a;
+	margin-bottom: 30px;
+}
+
+#showcase .row{
+	height: 600px;
+}
+
+#showcase h1{
+     font-size: 45px;
+     margin:0;
+     padding-bottom: 20px;
+}
+
+#showcase p{
+color: #ccc;
+margin: 0;
+
+}
+
+#showcase .showcase-content {
+	background: #333;
+	color: #fff;
+	border-radius: 50px;
+	padding: 2px;
+	opacity: 0.9;
+}
+
+/*features*/
+
+#features h2{
+	font-size: 35px;
+	margin: 0;
+	padding-bottom: 10px;
+
+}
+
+#features p{
+	color: #888;
+	margin:0;
+	margin-bottom: 40px;
+}
+
+#features .fa{
+font-size: 60px;
+color: #56a79a;
+}
+
+/*info*/
+#info{
+	background-image: url('images/info.jpeg') /*no-repeat;
+	/*color: #fff;*/
+}
+
+#info h2{
+	font-size: 3 5px;
+	margin: 0;
+	padding-bottom: 10px;
+	color: #fff;
+}
+#info ul{
+	list-style: none;
+	padding: 0;
+}
+
+#info li{
+	line-height: 2em;
+	font-size: 20px;
+	color: #fff;
+}
+/*company*/
+
+#company{
+	background: #333;
+	color: #fff;
+	padding: 10px 0;
+}
+
+#company h4{
+text-transform: uppercase;
+margin-bottom: 0;
+}
+
+#company ul{
+	padding: 0;
+	list-style: none;
+	line-height: 2em; 
+}
+
+#company input[type="text"]{
+	padding: 7px;
+}
+
+#company button{
+	background: #222;
+	color: #fff;
+	padding: 10px;
+	border: 0;
+}
+
+/*footer*/
+#main-footer{
+	background: #56a79a; 
+	color: #fff;
+}
+
+/*page*/
+#page{
+	margin-bottom: 
+}
+
+/*services*/
+.services ul li{
+list-style: none;
+padding: 10px;
+}
+
+.services ul li:nth-child(odd){
+	background: #333;
+	color: #fff;
+}
+
+
+.services ul li:nth-child(even){
+	background: #56a79a; 
+	color: #fff;
+}
+
+/*contact*/
+.contact form{
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.contact form input[type="text"]{
+	width: 50%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.contact form textarea{
+	width: 50%;
+	height: 100px;
+	margin-bottom: 10px;
+
+}
+
+.contact form button{
+	width: 50%;
+	padding: 10px 0;
+	border: 0;
+	background: #222;
+	color: #fff;
+}
+
+.contact form label{
+	text-transform: uppercase;
+}
+
+
+/*media qerries*/
+@media(max-width: 800px){
+	#showcase h1{
+		font-size: 30px;
+	}
+
+}
